@@ -43,7 +43,7 @@ public class Employee extends javax.swing.JFrame {
                  .enableScroll(true)
                  .enableScrollUI(false)
                  
-                 .addChild(new DrawerItem("Branch").icon(new ImageIcon(getClass().getResource("/IMG/branch.png"))).build())
+                 .addChild(new DrawerItem("Iteams view").icon(new ImageIcon(getClass().getResource("/IMG/user.png"))).build())
                  .addChild(new DrawerItem("Product performance").icon(new ImageIcon(getClass().getResource("/IMG/admin.png"))).build())
                  .addChild(new DrawerItem("customer behavaiour").icon(new ImageIcon(getClass().getResource("/IMG/panel.png"))).build())
                  .addChild(new DrawerItem("Best selling product").icon(new ImageIcon(getClass().getResource("/IMG/best saling product.png"))).build())
